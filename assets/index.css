@@ -1,0 +1,18 @@
+#showNormal, #showVip {
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+#showNormal:hover {
+  color: white;
+  background-color: #009688;
+}
+
+#showVip:hover {
+  color: white;
+  background-color: #f44336;
+}
+
+#showNormal i, #showVip i {
+  margin-right: 10px;
+}
